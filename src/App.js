@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {Main} from "./lesson-1/main";
+import {Main2} from "./lesson-2/main2";
+// import {Main} from "./lesson-1/main";
 
 function App() {
     return (
@@ -19,7 +20,8 @@ function App() {
                     Learn React
                 </a>
             </header>
-            <Main/>
+            <Main2/>
+            {/*<Main/>*/}
         </div>
     );
 }
